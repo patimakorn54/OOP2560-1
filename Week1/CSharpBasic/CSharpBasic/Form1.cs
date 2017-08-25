@@ -47,7 +47,8 @@ namespace CSharpBasic
         {
             textBox1.Text = "Long";
             textBox2.Text = sizeof(long).ToString();
-
+            textBox3.Text = long.MinValue.ToString();
+            textBox4.Text = long.MaxValue.ToString();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -57,6 +58,70 @@ namespace CSharpBasic
             textBox3.Text = float.MinValue.ToString();
             textBox4.Text = float.MaxValue.ToString();
 
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "Byte";
+            textBox2.Text = sizeof(byte).ToString();
+            textBox3.Text = byte.MinValue.ToString();
+            textBox4.Text = byte.MaxValue.ToString();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "Short";
+            textBox2.Text = sizeof(short).ToString();
+            textBox3.Text = short.MinValue.ToString();
+            textBox4.Text = short.MaxValue.ToString();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "ushort";
+            textBox2.Text = sizeof(ushort).ToString();
+            textBox3.Text = ushort.MinValue.ToString();
+            textBox4.Text = ushort.MaxValue.ToString();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "int";
+            textBox2.Text = sizeof(int).ToString();
+            textBox3.Text = int.MinValue.ToString();
+            textBox4.Text = int.MaxValue.ToString();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "Uint";
+            textBox2.Text = sizeof(uint).ToString();
+            textBox3.Text = uint.MinValue.ToString();
+            textBox4.Text = uint.MaxValue.ToString();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "Ulong";
+            textBox2.Text = sizeof(ulong).ToString();
+            textBox3.Text = ulong.MinValue.ToString();
+            textBox4.Text = ulong.MaxValue.ToString();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "Double";
+            textBox2.Text = sizeof(double).ToString();
+            textBox3.Text = double.MinValue.ToString();
+            textBox4.Text = double.MaxValue.ToString();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "Decimal";
+            textBox2.Text = sizeof(decimal).ToString();
+            textBox3.Text = decimal.MinValue.ToString();
+            textBox4.Text = decimal.MaxValue.ToString();
         }
     }
 }
